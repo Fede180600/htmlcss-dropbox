@@ -272,7 +272,6 @@ div.third-section-container {
     margin: 3.5em auto 3em;
 
     /* test */
-    height: 1200px;
     width: 95%;
     background-color:crimson
 }
@@ -306,5 +305,41 @@ div.row > div.card {
     width: calc(99% / 3 - 2em);
     background-color: darkslategray;
 }
+
+div.bottom-content {
+    padding-top: 2em;
+    margin-top: 2em;
+    background-color: aquamarine;
+}
+
 /* third section */
+
+/* banner bottom */
+div.banner-bottom {
+
+    
+    background-color:rgb(0, 94, 117);
+    height: 850px;
+}
+
+div.banner-bottom > div.content-banner-bottom {
+    width: 40%;
+    height: 55%;
+    margin: 0 auto;
+    background-color: chocolate;
+
+}
+
+div.banner-bottom > div.offer-banner-bottom {
+    background-color: crimson;
+    display: inline-block;
+    margin: 10em 0 0 12em;
+}
+
+span.btn-banner-bottom {
+    background-color: rgb(0, 143, 31);
+    margin-left: 35em;
+}
+/* banner bottom  */
+
 /* /MAIN */
