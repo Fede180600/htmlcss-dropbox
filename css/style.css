@@ -342,4 +342,21 @@ span.btn-banner-bottom {
 }
 /* banner bottom  */
 
+/* prefooter */
+section.prefooter-section {
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+}
+
+
+section.prefooter-section > div.prefooter-row {
+    height: 55px;
+    width: 90%;
+    line-height: 55px;
+    margin: 2em auto 0;
+    background-color: darkmagenta;
+    border: 1px solid black;
+}
+
+
 /* /MAIN */
