@@ -169,7 +169,7 @@ div.cols-container {
 div.cols-container > div.section-col {
     display: inline-block;
     margin: 1em 1em 0 1em;
-    height: 600px;
+    height: 800px;
     width: calc(100% / 3 - 3em);
     background-color: blueviolet;    
 }
@@ -254,14 +254,57 @@ div.text > h3.content-title {
 
 div.text > p.content-text {
     margin-bottom: 2em;
+
+    /* test */
     border: 1px solid black;
 }
 
 div.text > span.content-button {
     
+    /* test */
     background-color:rgb(243, 189, 124)
 }
 
 /* /second section */
 
+/* third section */
+div.third-section-container {
+    margin: 3.5em auto 3em;
+
+    /* test */
+    height: 1200px;
+    width: 95%;
+    background-color:crimson
+}
+
+div.third-section-container > h2.section-title {
+
+    /* test */
+    height: 40px;
+    background-color: chocolate;
+}
+
+div.row {
+    text-align: center;
+}
+
+div.row-top {
+    margin-top: 2.5em;
+}
+
+div.row-bottom {
+    margin-top: 1em;
+
+}
+
+div.row > div.card {
+    display: inline-block;
+    margin: 0 .5em 0 .5em;
+
+    /* test */
+    height: 550px;
+    width: calc(99% / 3 - 2em);
+    background-color: darkslategray;
+}
+/* third section */
 /* /MAIN */
