@@ -345,7 +345,7 @@ span.btn-banner-bottom {
 /* prefooter */
 section.prefooter-section {
     padding-top: 3em;
-    padding-bottom: 7.5em;
+    padding-bottom: 10em;
 }
 
 
@@ -358,5 +358,35 @@ section.prefooter-section > div.prefooter-row {
     border: 1px solid black;
 }
 
-
 /* /MAIN */
+
+/* FOOTER */
+footer.footer {
+    background-color: black;
+    height: 600px;
+}
+
+div.footer-container {
+    width: 85%;
+    margin: 0 auto;
+
+    
+    height: 100%;
+    background-color: blueviolet;
+}
+
+div.footer-top > div.col-footer {
+    width: calc(100% / 5);
+    height: 380px;
+    margin-top: 3.5em;
+
+    /* test */
+    background-color:rgb(0, 143, 31);
+    border: 1px solid white;
+}
+
+div.footer-container > div.footer-bottom {
+    height: 164px;
+    background-color: brown;
+}
+/* FOOTER */
