@@ -7,7 +7,7 @@
 
 /* COMMON */
 html {
-    font-size: 62.5%;
+    font-size: 100%;
     font-family: "Open", sans-serif;
 }
 
@@ -60,6 +60,15 @@ div.header-logo-container {
     background-color: blueviolet;
 }
 
+div.header-button-container {
+
+
+    /* test */
+    width: 30%;
+    height: 55px;
+    background-color: blueviolet;
+}
+
 nav.header-nav {
     width: 70%; 
 
@@ -72,7 +81,7 @@ nav.header-nav > ul {
 
 nav.header-nav ul > li {
     display: inline-block;
-
+    line-height: 48px;
     /* test */
     width: calc(90% / 3);
     height: 48px;
@@ -80,8 +89,59 @@ nav.header-nav ul > li {
 }
 
 ul.header-list li > a {
-    line-height: 55px;
     text-decoration: none;
 }
 /* /HEADER */
 
+/* MAIN */
+
+/* banner */
+div.banner-content-container {
+    height: 550px;
+    background-color: rgb(243, 189, 124);
+}
+
+section.section-banner {
+    height: 700px; 
+    background-color: rgb(226, 43, 119);
+}
+
+div.banner-content {
+    width: 75%;
+    height: 540px;
+    background-color: brown;
+    margin: 0 auto;
+    padding-top: 3em;
+
+}
+
+div.banner-content > h1.banner-title {
+    height: 70px;
+    background-color: rgb(76, 248, 127);
+}
+
+div.banner-content > div.cols-container {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    margin-top: 2em;
+    position: relative;
+}
+
+div.cols-container > p.banner-text {
+    width: 35%;
+    height: 300px;
+    background-color: rgb(76, 248, 127);
+}
+
+div.cols-container > div.banner-img {
+    width: 65%;
+    height: 350px;
+    background-color: rgb(3, 97, 0);
+    position: absolute;
+    right: 5px;
+    bottom: -30px;
+}
+/* banner */
+
+/* MAIN */
