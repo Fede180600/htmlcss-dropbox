@@ -47,7 +47,7 @@ a {
 }
 
 .btn {
-    padding: .6em 4em;
+    padding: .6em 1.5em;
 }
 
 .container {
@@ -61,6 +61,10 @@ a {
 header {
     width: 100%;
     height: 55px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 
     /* test */
     /* background-color: yellow; */
@@ -99,8 +103,8 @@ div.header-button-container > a.header-button {
 
 nav.header-nav {
     width: 80%; 
-    font-size: 1.6em;
-    font-weight: 600;
+    font-size: 1.8em;
+    font-weight: 500;
 }
 
 nav.header-nav > ul {
@@ -114,7 +118,7 @@ nav.header-nav ul > li {
     display: inline-block;
     line-height: 60px;
     height: 55px;
-    margin: 0 1em 0 1em;
+    margin: 0 2% 0 2%;
     /* test */
     /* border: 1px solid blueviolet; */
 }
@@ -123,59 +127,85 @@ ul.header-list > li.header-item > a {
     color: black;
 }
 
-
-
 /* /HEADER */
 
 /* MAIN */
 
 /* banner */
 div.banner-content-container {
-    height: 540px;
-    background-color: rgb(243, 189, 124);
+    background-color: #b4cfe6;
+    padding-top: 8em;
+
+    /* height: 540px; */
 }
 
 section.section-banner {
-    height: 650px; 
+    margin-bottom: 14em;
 
+    /* height: 650px;  */
     /* background-color: rgb(97, 147, 255); */
 }
 
 div.banner-content {
-    width: 85%;
-    height: 540px;
-    background-color: brown;
+    width: 90%;
     margin: 0 auto;
-    padding-top: 4em;
+    margin-top: 2em;
+
+    /* test */
+    /* height: 540px; */
+    /* background-color: brown; */
 
 }
 
 div.banner-content > h1.banner-title {
-    height: 70px;
-    background-color: rgb(76, 248, 127);
+    font-size: 5.5em;
+    font-weight: 800;
+    /* test */
+    /* height: 70px; */
+    /* background-color: rgb(76, 248, 127); */
 }
 
-div.banner-content > div.text-img {
-    border: 1px solid black;
-    height: 375px;
-    width: 100%;
-    margin-top: 2em;
+div.text-container {
+    width: 38%;
+
+}
+
+div.text-container > p.col-text {
+    padding-top: 2.5em;
+    font-size: 2.1em;
+    font-weight: 500;
+    margin-bottom: 1em;
+
+    /* test */
+    /* height: 300px; */
+    /* background-color: rgb(76, 248, 127); */
+}
+
+div.text-container > div > a.banner-btn {
+    background-color: #0061fe;
+    color: white;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+div.text-container > div > div.periodo-prova {
+    color: black;
+    font-size: 1.4em;
+    margin-top: .5em;
+}
+
+div > div.arrow-banner > i.fa-arrow-down {
+    font-size: 4em;
+    margin-top: .5em;
+}
+
+div.banner-cols > div.col-img {
+    width: 62%;
     position: relative;
-}
-
-div.text-img > p.banner-text {
-    width: 35%;
-    height: 300px;
-    background-color: rgb(76, 248, 127);
-}
-
-div.text-img > div.banner-img {
-    width: 65%;
-    height: 350px;
-    background-color: rgb(3, 97, 0);
-    position: absolute;
-    right: 0;
-    bottom: -30px;
+    bottom: -50px;
+    
+    /* height: 350px; */
+    /* background-color: rgb(3, 97, 0); */
 }
 /* /banner */
 
