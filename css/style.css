@@ -54,7 +54,7 @@ a {
     width: 90%;
     /* height: 2000px; */
     margin: 0 auto;
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
 
 /* HEADER */
@@ -184,19 +184,21 @@ div.text-container > p.col-text {
 div.text-container > div > a.banner-btn {
     background-color: #0061fe;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    padding: .6em 2.3em;
     display: inline-block;
 }
 
 div.text-container > div > div.periodo-prova {
     color: black;
     font-size: 1.4em;
-    margin-top: .5em;
+    margin-top: .8em;
 }
 
-div > div.arrow-banner > i.fa-arrow-down {
+div.arrow-banner > a.arrow-link > i.fa-arrow-down {
     font-size: 4em;
     margin-top: .5em;
+    color: black;
 }
 
 div.banner-cols > div.col-img {
@@ -211,7 +213,7 @@ div.banner-cols > div.col-img {
 
 /* first section  */
 section > h2.section-title {
-    font-size: 3.8em;
+    font-size: 3.5em;
 }
 
 section > div.input-container {
@@ -219,7 +221,7 @@ section > div.input-container {
     margin-left: .5em;
     font-size: 1.9em;
 
-    background-color: brown;
+    /* background-color: brown; */
     /* width: 30%; */
 }
 
@@ -237,7 +239,8 @@ div.cols-container > div.section-col {
     text-align: center; */
 
     height: 1100px;
-    background-color: blueviolet;    
+    border: 2px solid lightgray;
+    /* background-color: blueviolet;     */
 }
 
 
@@ -246,7 +249,7 @@ div.section-col > div.section-col-entity {
     font-weight: 500;
     text-align: center;
     line-height: 2.5em;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid lightgray;
 }
 
 div.section-col > div.row {
@@ -273,6 +276,10 @@ div.section-col-title > h5.col-subtitle {
 div.section-col-title > span.col-month {
     font-size: 1.5em;
     color: rgb(78, 90, 255);
+}
+
+div.col-list-container {
+    margin-top: 3em;
 }
 
 li.list-item-col > div.col-list-item-entity {
@@ -306,7 +313,7 @@ div.row > span.col-sub-btn{
     margin-right: 1em;
     padding-bottom: 2em;
     font-size: 1.6em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 div.row > span > a.buy-now {
@@ -326,42 +333,62 @@ i.fa-check {
 div.enterprise-box {
     width: 95%;
     margin: 3em auto 5em;
+    border: 2px solid lightgray;
+    height: 300px;
 
     /* test */
-    height: 300px;
-    border: 1px solid black;
-    background-color: darkorange;
+    /* background-color: darkorange; */
 }
 
 div.enterprise-box > div.enterprise-entity {
-    height: 1.5em;
-    line-height: 1.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 2em;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightgray;
 
     /* test */
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 div.enterprise-content-container {
     position: relative;
     width: 100%;
     height: calc(100% - 1.5em);
-    padding-top: 4em;
-    padding-left: 2em;
+    padding-top: 6em;
+    padding-left: 8em;
 
-
-    background-color: coral;
+    /* test */
+    /* background-color: coral; */
 }
 
 div.enterprise-content-container > span.enterprise-button{
     position: absolute;
-    top: 2em;
-    right: 3em;
-
-    /* test */
-    background-color:rgb(0, 94, 117);
+    top: 7em;
+    right: 7em;
+    background-color:#0061ff;
+    padding: 1em 3em;
 }
+
+div.enterprise-content-container > h2.enterprise {
+    font-size: 2.8em;
+    margin-bottom: .8em;
+}
+
+div.enterprise-content-container > h3.enterprise-subtitle {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+div.enterprise-content-container > p.enterprise-text {
+    font-size: 1.8em;
+}
+
+span.enterprise-button > a.enterprise-btn {
+    font-size: 1.8em;
+    color: white;
+}
+
 /* /first section  */
 
 /* second section */
