@@ -7,7 +7,7 @@
 
 /* COMMON */
 html {
-    font-size: 100%;
+    font-size: 62.5%;
     font-family: "Open", sans-serif;
 }
 
@@ -25,8 +25,8 @@ img {
     float: left;
 
     /* test */
-    background-color: green;
-    border: 1px solid black;
+    /* background-color: green; */
+    /* border: 1px solid black; */
 }
 
 div.col-left-header {
@@ -63,49 +63,68 @@ header {
     height: 55px;
 
     /* test */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 div.header-logo-container {
-
+    /* padding: .5em 0 .5em 0; */
+    width: 20%;
+    height: 55px;
+    line-height: 55px;
 
     /* test */
-    width: 30%;
-    height: 55px;
-    background-color: blueviolet;
+}
+
+div.header-logo-container > img#logo-img {
+    width: 100%;
+    vertical-align: middle;
+
 }
 
 div.header-button-container {
-
-
-    /* test */
-    width: 30%;
     height: 55px;
-    background-color: blueviolet;
+    width: 20%;
+    line-height: 55px;
+    padding-right: 2em;
+    /* test */
+    /* background-color: blueviolet; */
+}
+
+div.header-button-container > a.header-button {
+    background-color: #0061fe;
+    color: white;
+    padding: .4em 1em;
+    font-size: 1.6em;
 }
 
 nav.header-nav {
-    width: 70%; 
-
+    width: 80%; 
+    font-size: 1.6em;
+    font-weight: 600;
 }
 
 nav.header-nav > ul {
-    text-align: center;
-    border: 1px solid orangered;
+    /* text-align: center; */
+
+    /* test */
+    /* border: 1px solid orangered; */
 }
 
 nav.header-nav ul > li {
     display: inline-block;
-    line-height: 48px;
+    line-height: 60px;
+    height: 55px;
+    margin: 0 1em 0 1em;
     /* test */
-    width: calc(90% / 3);
-    height: 48px;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
-ul.header-list li > a {
-    text-decoration: none;
+ul.header-list > li.header-item > a {
+    color: black;
 }
+
+
+
 /* /HEADER */
 
 /* MAIN */
@@ -236,7 +255,7 @@ div.second-section-container > div.col-content {
     width: 50%;
     height: 80%;
     margin-top: 4em;
-    
+    /* min-height:; */
 
     background-color: darkorchid;
 }
