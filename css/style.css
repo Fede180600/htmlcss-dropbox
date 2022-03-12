@@ -236,16 +236,17 @@ section > div.input-container {
 div.cols-container > div.section-col {
     display: inline-block;
     margin: 2em 2em 0 2em;
-    width: calc(90% / 3);
+    width: calc(97.5% / 3 - 4em);
     position: relative;
     left: 1.5em;
     /* line-height: 50px;
     text-align: center; */
 
-    height: 1100px;
+    height: 1200px;
     border: 2px solid lightgray;
     /* background-color: blueviolet;     */
 }
+
 
 
 div.section-col > div.section-col-entity {
@@ -307,9 +308,11 @@ div.col-offer-btn {
 div.col-offer-btn > a.btn-col {
     background-color: #0061fe;
     color: white;
-    padding: .6em 3em;
+    padding: .1em 1.5em;
     font-size: 1.8em;
     line-height: 50px;
+    display: inline-block;
+
 }
 
 div.row > span.col-sub-btn{
@@ -711,10 +714,10 @@ div.prefooter-li-content {
 }
 
 span.li-entity > i.fa-angle-down {
-    font-size: 2em;
+    font-size: 1.6em;
     position: absolute;
     right: 3%;
-    top: 34%;
+    top: 35%;
 
 }
 
@@ -729,16 +732,16 @@ section.prefooter-section > div.prefooter-title {
 /* FOOTER */
 footer.footer {
     background-color: black;
-    height: 600px;
+    /* height: 600px; */
 }
 
 div.footer-container {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 
     
-    height: 100%;
-    background-color: blueviolet;
+    /* height: 100%; */
+    /* background-color: blueviolet; */
 }
 
 div.footer-top > div.col-footer {
@@ -747,12 +750,35 @@ div.footer-top > div.col-footer {
     margin-top: 3.5em;
 
     /* test */
-    background-color:rgb(0, 143, 31);
-    border: 1px solid white;
+    /* background-color:rgb(0, 143, 31); */
+    /* border: 1px solid white; */
+}
+
+div.col-footer > h4.footer-title {
+    font-size: 2.3em;
+    font-weight: 800;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+div.col-footer > ul.footer-list > li {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    color: white;
 }
 
 div.footer-container > div.footer-bottom {
-    height: 164px;
-    background-color: brown;
+    /* height: 164px; */
+    /* background-color: brown; */
+    padding-bottom: 6em;
+}
+
+div.footer-bottom-content {
+    color: lightgray;
+    font-size: 2em;
+    padding-top: 3em;
+    border-top: 1px solid lightgray;
+    display: inline-block;
 }
 /* FOOTER */
