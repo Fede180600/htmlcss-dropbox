@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
     font-family: "Open", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .clearfix::after {
@@ -51,9 +52,10 @@ a {
 }
 
 .container {
-    width: 90%;
-    /* height: 2000px; */
+    width: 75%;
     margin: 0 auto;
+    
+    /* height: 2000px; */
     /* background-color: darkgray; */
 }
 
@@ -214,11 +216,13 @@ div.banner-cols > div.col-img {
 /* first section  */
 section > h2.section-title {
     font-size: 3.5em;
+    margin-left: .9em;
+
 }
 
 section > div.input-container {
     margin-top: 1.5em;
-    margin-left: .5em;
+    margin-left: 2em;
     font-size: 1.9em;
 
     /* background-color: brown; */
@@ -464,79 +468,222 @@ span.content-button > a {
 
 /* /second section */
 
+
+
 /* third section */
 div.third-section-container {
-    margin: 3.5em auto 3em;
-
+    
     /* test */
+    margin: 5em auto 4em;
     width: 95%;
-    background-color:crimson
+    /* background-color:crimson */
 }
 
 div.third-section-container > h2.section-title {
+    font-size: 3.5em;
+    margin-bottom: 1.5em;
 
     /* test */
-    height: 40px;
-    background-color: chocolate;
+    /* height: 40px; */
+    /* background-color: chocolate; */
 }
 
-div.row {
-    text-align: center;
+div.row div.card:nth-child(2) {
+    margin: 0 10em;
 }
 
-div.row-top {
-    margin-top: 2.5em;
-}
-
-div.row-bottom {
-    margin-top: 1em;
+div.third-section-container > div.row-top {
+    /* background-color: #0061fe; */
 
 }
 
-div.row > div.card {
-    display: inline-block;
-    margin: 0 .5em 0 .5em;
-
+div.third-section-container > div.row > div.card {
+    width: calc(100% / 3 - 6.68em);
+    
     /* test */
-    height: 550px;
-    width: calc(99% / 3 - 2em);
-    background-color: darkslategray;
+    /* text-align: center; */
+    /* background-color: slategrey; */
+    /* line-height: 50px; */
 }
 
-div.bottom-content {
-    padding-top: 2em;
-    margin-top: 2em;
-    background-color: aquamarine;
+
+div.card > div.card-top {
+    margin-left: .5em;
+    height: 250px;
+    
+    
+    /* test */
+    /* width: 95%; */
+    /* background-color: brown; */
 }
 
-/* third section */
+div.card > div.card-top > img.card-img {
+    height: 100%;
+    width: auto;
+}
+
+div.card-bottom > h4.card-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+div.card-bottom {
+    padding-bottom: 6em;
+}
+
+div.card-bottom > p.card-text {
+    font-size: 1.9em;
+}
+
+a.underline-text {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+div.bottom-content > h2.bottom-content-title{
+    font-size: 3.2em;
+    margin-bottom: 1em;
+
+    /* padding-top: 2em;
+    margin-top: 2em; */
+    /* background-color: aquamarine; */
+}
+
+div.bottom-content > a.bottom-link {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #106bff;
+}
+
+/* /third section */
 
 /* banner bottom */
-div.banner-bottom {
+div.banner-bottom-container > div.brands-box {
+    /* height: 400px;
+    width: 100%; */
 
-    
-    background-color:rgb(0, 94, 117);
-    height: 850px;
+    /* test */
+    /* background-color: darkred; */
 }
 
-div.banner-bottom > div.content-banner-bottom {
+div.banner-bottom-container > div.brands-box > div.col-center {
     width: 40%;
-    height: 55%;
-    margin: 0 auto;
-    background-color: chocolate;
+    height: 30vw;
+    background-color:#f5f5f5;
+    padding-bottom: 5em;
+    overflow: auto;
+}
+
+div.brands-box > div.col-center > div.designit-logo {
+    width: 30%;
+    margin-top: 8em;
+    margin-left: 3.5em;
 
 }
 
-div.banner-bottom > div.offer-banner-bottom {
-    background-color: crimson;
-    display: inline-block;
-    margin: 10em 0 0 12em;
+div.col-center > p.banner-bottom-text {
+    font-size: 2em;
+    margin-top: 3.5em;
+    margin-left: 1.5em;
+    margin-right: 2em;
 }
 
-span.btn-banner-bottom {
-    background-color: rgb(0, 143, 31);
-    margin-left: 35em;
+div.col-center > div.cit {
+    font-size: 2em;
+    margin-top: 3em;
+    margin-left: 1.5em;
 }
+
+p.banner-bottom-text > span.banner-bottom-central-content-hr {
+    padding-top: 2em;
+    border-top: 1px solid lightgray;
+}
+
+div.banner-bottom-container > div.brands-box > div.col-aside{
+    width: 30%;
+}
+
+
+div.row-brand > div.brand {
+    height: calc(30vw / 2 - .05em);
+    width: calc(30vw / 2 - .4em);
+    text-align: center;
+    
+    /* test */
+    /* border: 1px solid black; */
+}
+
+div.brand > img.brand-img {
+    width: 50%;
+    height: 15vw;
+    line-height: 15vw;
+}
+
+.lightgreen {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.purple {
+    background-color: #61082b;
+}
+
+.blue {
+    background-color: #0093ce;
+}
+
+.red-1 {
+    background-color: #ff1c1c;
+}
+
+.red-2 {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.darkblue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
+
+/* section bottom of banner */
+div.bg-lightgreen {
+    height: 20vw;
+    background-color: #b4d0e7;
+    position: relative
+}
+
+div.bottom-banner-title-container {
+    width: 35%; 
+    font-size: 3em;
+    color: #61082b;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+span.banner-bottom-btn {
+    padding: .6em 2em;
+    font-size: 1.8em;
+    background-color: #ffffff ;
+    color: black;
+    position: absolute;
+    top: 35%;
+    right: 18%;
+}
+
+span.banner-bottom-btn > a{
+    color: inherit;
+}
+
 /* banner bottom  */
 
 /* prefooter */
@@ -546,13 +693,35 @@ section.prefooter-section {
 }
 
 
-section.prefooter-section > div.prefooter-row {
-    height: 55px;
+div.prefooter-list-container > ul.prefooter-list > li.prefooter-li {
+    height: 6em;
     width: 90%;
-    line-height: 55px;
-    margin: 2em auto 0;
-    background-color: darkmagenta;
-    border: 1px solid black;
+    line-height: 6em;
+    margin: 0 auto;
+    font-size: 1.8em;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+
+    /* test */
+    /* background-color: darkmagenta; */
+}
+
+div.prefooter-li-content {
+    position: relative;
+}
+
+span.li-entity > i.fa-angle-down {
+    font-size: 2em;
+    position: absolute;
+    right: 3%;
+    top: 34%;
+
+}
+
+section.prefooter-section > div.prefooter-title {
+    width: 90%;
+    margin: 3em auto 2em;
+    font-size: 2.5em;
 }
 
 /* /MAIN */
