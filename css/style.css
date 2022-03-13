@@ -116,14 +116,40 @@ nav.header-nav > ul {
     /* border: 1px solid orangered; */
 }
 
-nav.header-nav ul > li {
+nav.header-nav ul > li.header-item {
     display: inline-block;
     line-height: 60px;
     height: 55px;
     margin: 0 2% 0 2%;
+    
     /* test */
     /* border: 1px solid blueviolet; */
 }
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 
 ul.header-list > li.header-item > a {
     color: black;
@@ -695,9 +721,14 @@ section.prefooter-section {
     padding-bottom: 10em;
 }
 
+section.prefooter-section > div.prefooter-title {
+    width: 90%;
+    margin: 3em auto 2em;
+    font-size: 2.5em;
+}
 
-div.prefooter-list-container > ul.prefooter-list > li.prefooter-li {
-    height: 6em;
+div.prefooter-li-content > div.li-content > h3.li-title {
+    /* height: 6em; */
     width: 90%;
     line-height: 6em;
     margin: 0 auto;
@@ -713,6 +744,19 @@ div.prefooter-li-content {
     position: relative;
 }
 
+div.li-content > div.hidden-content-container {
+    width: 90%;
+    margin: 2em auto;
+    font-size: 1.5em;
+    padding: 0 4em 2em 4em;
+    border-bottom: 1px solid lightgray;
+    display: none;
+}
+
+div.li-content:hover div.hidden-content-container {
+    display: block;
+}
+
 span.li-entity > i.fa-angle-down {
     font-size: 1.6em;
     position: absolute;
@@ -721,11 +765,6 @@ span.li-entity > i.fa-angle-down {
 
 }
 
-section.prefooter-section > div.prefooter-title {
-    width: 90%;
-    margin: 3em auto 2em;
-    font-size: 2.5em;
-}
 
 /* /MAIN */
 
