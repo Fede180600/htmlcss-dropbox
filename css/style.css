@@ -28,19 +28,6 @@ img {
 
 .col {
     float: left;
-
-    /* test */
-    /* background-color: green; */
-    /* border: 1px solid black; */
-}
-
-div.col-left-header {
-    width: 50%;
-}
-
-div.col-right-header {
-    width: 50%;
-    text-align: right;
 }
 
 ul {
@@ -55,12 +42,14 @@ a {
     background-color: #008ce9 ;
 }
 
+#border-3:hover {
+    border: 3px solid black;
+    font-weight: 600;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
-    
-    /* height: 2000px; */
-    /* background-color: darkgray; */
 }
 
 /* HEADER */
@@ -71,9 +60,15 @@ header {
     position: fixed;
     top: 0;
     z-index: 100;
+}
 
-    /* test */
-    /* background-color: yellow; */
+div.col-right-header {
+    width: 50%;
+    text-align: right;
+}
+
+div.col-left-header {
+    width: 50%;
 }
 
 header ul.header-list > li.header-item a:hover {
@@ -82,12 +77,9 @@ header ul.header-list > li.header-item a:hover {
 }
 
 div.header-logo-container {
-    /* padding: .5em 0 .5em 0; */
     width: 20%;
     height: 55px;
     line-height: 55px;
-
-    /* test */
 }
 
 div.header-logo-container > img#logo-img {
@@ -97,12 +89,10 @@ div.header-logo-container > img#logo-img {
 }
 
 div.header-button-container {
-    height: 55px;
+    height: 60px;
     width: 20%;
-    line-height: 55px;
-    padding-right: 2em;
-    /* test */
-    /* background-color: blueviolet; */
+    line-height: 60px;
+    padding-right: 5em;
 }
 
 div.header-button-container > a.header-button {
@@ -124,11 +114,7 @@ nav.header-nav > ul.header-list > li.header-item {
     height: 60px;
     margin: 0 2% 0 2%;
     position: relative;
-    
-    /* test */
-    /* border: 1px solid blueviolet; */
 }
-
 
 ul.header-list > li.header-item > a {
     color: black;
@@ -137,8 +123,8 @@ ul.header-list > li.header-item > a {
 li.header-item:hover ul.submenu-list {
     display: block;
 }
+
 ul.submenu-list {
-    /* display: inline-block; */
     position: absolute;
     top: 3.35em;
     left: -15px;
@@ -163,48 +149,32 @@ ul.submenu-list a {
     display: inline-block;
 
 }
-
 /* /HEADER */
 
 /* MAIN */
-
 /* banner */
 div.banner-content-container {
     background-color: #b4cfe6;
     padding-top: 8em;
-
-    /* height: 540px; */
 }
 
 section.section-banner {
     margin-bottom: 14em;
-
-    /* height: 650px;  */
-    /* background-color: rgb(97, 147, 255); */
 }
 
 div.banner-content {
     width: 90%;
     margin: 0 auto;
     margin-top: 2em;
-
-    /* test */
-    /* height: 540px; */
-    /* background-color: brown; */
-
 }
 
 div.banner-content > h1.banner-title {
     font-size: 5.8em;
     font-weight: 800;
-    /* test */
-    /* height: 70px; */
-    /* background-color: rgb(76, 248, 127); */
 }
 
 div.text-container {
     width: 38%;
-
 }
 
 div.text-container > p.col-text {
@@ -212,10 +182,6 @@ div.text-container > p.col-text {
     font-size: 2.1em;
     font-weight: 500;
     margin-bottom: 1em;
-
-    /* test */
-    /* height: 300px; */
-    /* background-color: rgb(76, 248, 127); */
 }
 
 div.text-container > div > a.banner-btn {
@@ -242,9 +208,6 @@ div.banner-cols > div.col-img {
     width: 62%;
     position: relative;
     bottom: -50px;
-    
-    /* height: 350px; */
-    /* background-color: rgb(3, 97, 0); */
 }
 /* /banner */
 
@@ -252,16 +215,12 @@ div.banner-cols > div.col-img {
 section > h2.section-title {
     font-size: 3.5em;
     margin-left: .9em;
-
 }
 
 section > div.input-container {
     margin-top: 1.5em;
     margin-left: 2em;
     font-size: 1.9em;
-
-    /* background-color: brown; */
-    /* width: 30%; */
 }
 
 .ml-1{
@@ -270,23 +229,17 @@ section > div.input-container {
 
 div.cols-container > div.section-col {
     display: inline-block;
-    margin: 2em 2em 0 2em;
+    border: 2px solid lightgray;
     width: calc(97.5% / 3 - 4em);
+    margin: 2em 2em 0 2em;
+    min-height: 1200px;
     position: relative;
     left: 1.5em;
-    min-height: 1200px;
-    /* line-height: 50px;
-    text-align: center; */
-
-    border: 2px solid lightgray;
-    /* background-color: blueviolet;     */
 }
 
 .pb-12 {
     padding-bottom: 12em;
 }
-
-
 
 div.section-col > div.section-col-entity {
     font-size: 2em;
@@ -303,7 +256,6 @@ div.section-col > div.row {
 
 div.row > div.section-col-title {
     margin-top: 3em;
-    /* line-height: 40px; */
 }
 
 div.section-col-title > h3.col-title {
@@ -328,7 +280,6 @@ div.col-list-container {
 
 li.list-item-col > div.col-list-item-entity {
     font-size: 1.8em;
-    /* line-height: 3em; */
     margin-top: 2em;
 }
 
@@ -341,7 +292,6 @@ li.list-item-col > div.col-list-item-entity {
 div.col-offer-btn {
     margin-top: 4em;
     text-align: center;
-
 }
 
 div.col-offer-btn > a.btn-col {
@@ -351,7 +301,6 @@ div.col-offer-btn > a.btn-col {
     font-size: 1.8em;
     line-height: 50px;
     display: inline-block;
-
 }
 
 div.row > span.col-sub-btn{
@@ -381,9 +330,6 @@ div.enterprise-box {
     margin: 3em auto 13em;
     border: 2px solid lightgray;
     height: 300px;
-
-    /* test */
-    /* background-color: darkorange; */
 }
 
 div.enterprise-box > div.enterprise-entity {
@@ -392,9 +338,6 @@ div.enterprise-box > div.enterprise-entity {
     font-size: 2em;
     text-align: center;
     border-bottom: 2px solid lightgray;
-
-    /* test */
-    /* background-color: brown; */
 }
 
 div.enterprise-content-container {
@@ -403,9 +346,6 @@ div.enterprise-content-container {
     height: calc(100% - 1.5em);
     padding-top: 6em;
     padding-left: 8em;
-
-    /* test */
-    /* background-color: coral; */
 }
 
 div.enterprise-content-container > span.enterprise-button{
@@ -441,18 +381,11 @@ span.enterprise-button > a.enterprise-btn {
 section > div.second-section-container {
     width: 95%;
     margin: 0 auto;
-
-    /* test */
-    /* height: 600px; */
-    /* background-color: cornflowerblue; */
 }
 
 div.second-section-container > div.col-img {
     width: 50%;
     height: 500px;
-
-    /* test */
-    /* background-color: bisque; */
 }
 
 div.col-img > img.partner-img {
@@ -465,33 +398,21 @@ div.second-section-container > div.col-content {
     height: 80%;
     margin-top: 4em;
     margin-left: 3em;
-    
-    /* test */
-    /* background-color: darkorchid; */
 }
 
 div.text {
     margin-top: 3em;
     padding-bottom: 3em;
-
-    /* test */
-    /* background-color: darkred; */
 }
 
 div.text > h3.content-title {
     margin-bottom: 1.5em;
     font-size: 2.8em;
-
-    /* test */
-    /* border: 1px solid black; */
 }
 
 div.text > p.content-text {
     margin-bottom: 2em;
     font-size: 1.8em;
-    
-    /* test */
-    /* border: 1px solid black; */
 }
 
 div.text > span.content-button {
@@ -499,9 +420,6 @@ div.text > span.content-button {
     border: 2px solid black;
     font-size: 1.8em;
     color: black;
-
-    /* test */
-    /* background-color:rgb(243, 189, 124) */
 }
 
 span.content-button > a {
@@ -510,53 +428,29 @@ span.content-button > a {
 
 /* /second section */
 
-
-
 /* third section */
 div.third-section-container {
-    
-    /* test */
     margin: 5em auto 4em;
     width: 95%;
-    /* background-color:crimson */
 }
 
 div.third-section-container > h2.section-title {
     font-size: 3.5em;
     margin-bottom: 1.5em;
-
-    /* test */
-    /* height: 40px; */
-    /* background-color: chocolate; */
 }
 
 div.row div.card:nth-child(2) {
     margin: 0 10em;
 }
 
-div.third-section-container > div.row-top {
-    /* background-color: #0061fe; */
-
-}
-
 div.third-section-container > div.row > div.card {
     width: calc(100% / 3 - 6.68em);
-    
-    /* test */
-    /* text-align: center; */
-    /* background-color: slategrey; */
-    /* line-height: 50px; */
 }
 
 
 div.card > div.card-top {
     margin-left: .5em;
     height: 250px;
-    
-    
-    /* test */
-    /* width: 95%; */
-    /* background-color: brown; */
 }
 
 div.card > div.card-top > img.card-img {
@@ -583,14 +477,9 @@ a.underline-text {
     text-decoration: underline;
 }
 
-
 div.bottom-content > h2.bottom-content-title{
     font-size: 3.2em;
     margin-bottom: 1em;
-
-    /* padding-top: 2em;
-    margin-top: 2em; */
-    /* background-color: aquamarine; */
 }
 
 div.bottom-content > a.bottom-link {
@@ -599,17 +488,12 @@ div.bottom-content > a.bottom-link {
     color: #106bff;
 }
 
+#fw-600:hover {
+    font-weight: 600;
+}
 /* /third section */
 
 /* banner bottom */
-div.banner-bottom-container > div.brands-box {
-    /* height: 400px;
-    width: 100%; */
-
-    /* test */
-    /* background-color: darkred; */
-}
-
 div.banner-bottom-container > div.brands-box > div.col-center {
     width: 40%;
     height: 30vw;
@@ -622,7 +506,6 @@ div.brands-box > div.col-center > div.designit-logo {
     width: 30%;
     margin-top: 8em;
     margin-left: 3.5em;
-
 }
 
 div.col-center > p.banner-bottom-text {
@@ -652,9 +535,6 @@ div.row-brand > div.brand {
     height: calc(30vw / 2 - .05em);
     width: calc(30vw / 2 - .4em);
     text-align: center;
-    
-    /* test */
-    /* border: 1px solid black; */
 }
 
 div.brand > img.brand-img {
@@ -725,7 +605,6 @@ span.banner-bottom-btn {
 span.banner-bottom-btn > a{
     color: inherit;
 }
-
 /* banner bottom  */
 
 /* prefooter */
@@ -741,16 +620,12 @@ section.prefooter-section > div.prefooter-title {
 }
 
 div.prefooter-li-content > div.li-content > h3.li-title {
-    /* height: 6em; */
     width: 90%;
     line-height: 6em;
     margin: 0 auto;
     font-size: 1.8em;
     font-weight: 600;
     border-bottom: 1px solid lightgray;
-
-    /* test */
-    /* background-color: darkmagenta; */
 }
 
 div.prefooter-li-content {
@@ -775,35 +650,24 @@ span.li-entity > i.fa-angle-down {
     position: absolute;
     right: 3%;
     top: 35%;
-
 }
-
-
+/* /prefooter */
 /* /MAIN */
 
 /* FOOTER */
 footer.footer {
     background-color: black;
-    /* height: 600px; */
 }
 
 div.footer-container {
     width: 80%;
     margin: 0 auto;
-
-    
-    /* height: 100%; */
-    /* background-color: blueviolet; */
 }
 
 div.footer-top > div.col-footer {
     width: calc(100% / 5);
     height: 380px;
     margin-top: 3.5em;
-
-    /* test */
-    /* background-color:rgb(0, 143, 31); */
-    /* border: 1px solid white; */
 }
 
 div.col-footer > h4.footer-title {
@@ -821,8 +685,6 @@ div.col-footer > ul.footer-list > li {
 }
 
 div.footer-container > div.footer-bottom {
-    /* height: 164px; */
-    /* background-color: brown; */
     padding-bottom: 6em;
 }
 
